@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Forum-Regular';
+  src: url('Forum-Regular.eot');
+  src: url('Forum-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Forum-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Forum';
+  src: url('Forum.svg#Forum') format('svg'),
+       url('Forum.ttf') format('truetype'),
+       url('Forum.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

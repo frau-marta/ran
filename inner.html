@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Российская академия наук</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 d-flex align-items-center justify-content-between h-100">
+                        <a class="logo" href="/"><img src="img/logo.svg" class="img-fluid"></a>
+                        <ul class="menu list-unstyled d-lg-flex flex-row flex-nowrap align-items-center justify-content-center">
+                            <li class="menu_link d-block d-lg-none"><a href="/" data-toggle="modal" data-target="#exampleModal">Войти</a></li>
+                            <li><a href="/">О конкурсе</a></li>
+                            <li><a href="/">Оформление заявок</a></li>
+                            <li><a href="/">Документы</a></li>
+                            <li><a href="/">Архив</a></li>
+                        </ul>
+                        <a class="btn btn-link d-none d-md-block" href="/" data-toggle="modal" data-target="#exampleModal">Войти</a>
+                        <span class="nav-toggle d-block d-lg-none"><span></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content inner">
+            <div class="content_wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Заявка на конкурс</h1>
+                            <div class="contest_form-desc">
+                                <p>На соискание медалей федерального государственного бюджетного учреждения «Российская академия наук» с премиями для молодых ученых и для обучающихся по образовательным программам высшего образования.</p>
+                            </div>
+                            <div class="contest_form">
+                                <form>
+                                    <div class="contest_form-list">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="contest_form-block bFirst">
+                                                    <h3>Заявитель</h3>
+                                                    <div class="contest_form-b-inner">
+                                                        <div class="row">
+                                                            <div class="col-12 col-lg-6">
+                                                                <div class="form-group mb-0">
+                                                                    <label for="exampleInputEmail1" class="form-label">E-mail для авторизации<span>*</span></label>
+                                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="email@mail.com" aria-describedby="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 d-lg-flex flex-row flex-wrap justify-content-between">
+                                                <div class="contest_form-block maxW-50 align-self-lg-start">
+                                                    <h3>Информация о работе</h3>
+                                                    <div class="contest_form-b-inner" data-counter="0">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Номинация<span>*</span></label>
+                                                            <div class="custom_select">
+                                                                <select class="form-select" aria-label="Выберите номинацию">
+                                                                    <option selected>Математика</option>
+                                                                    <option value="1">Математика</option>
+                                                                    <option value="2">Математика</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="form-label">Тип работы<span>*</span></label>
+                                                            <div class="custom_radio">
+                                                                <div class="form_radio">
+                                                                    <input type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                    <label for="flexRadioDefault1">
+                                                                        Научная работа молодых ученых
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form_radio">
+                                                                    <input type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                                    <label for="flexRadioDefault2">
+                                                                        Студенческая работа
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Полное название работы<span>*</span></label>
+                                                            <textarea class="form-control" id="" placeholder="Текст описания" aria-describedby=""></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Библиографическая информация<span>*</span><small>(если представлен цикл работ - через точку с запятой); для статей: авторы (все), название / издание, год, том, номер, страницы; для монографий: авторы (все), название / издательство, место издания, год; для глав в книгах: авторы (все), название / издание, страницы, издательство, год, место издания.</small></label>
+                                                            <textarea class="form-control" id="" placeholder="Текст описания" aria-describedby=""></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">DOI<small>(при наличии, если представлен цикл работ – через запятую)</small></label>
+                                                            <input type="text" class="form-control" id="" placeholder="4565446545, 45665654" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Краткая аннотация работы<span>*</span></label>
+                                                            <textarea class="form-control" id="" placeholder="Текст аннотации" aria-describedby=""></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Работа <small>(допустимые расширения doc, docx, pdf)</small><span>*</span></label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-1" class="input input__file">
+                                                                <label for="input__file-1" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Электронная копия представления-отзыва на работу<span>*</span><small>(допустимые расширения pdf, jpg, jpeg, png)</small></label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-2" class="input input__file">
+                                                                <label for="input__file-2" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group form-group_file mt-3">
+                                                            <label for="" class="form-label">Дополнительные материлы</label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-6" class="input input__file">
+                                                                <label for="input__file-6" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <a class="dop_info dop_file dop_btn dop_btn-w100" href="/">Дополнительные материалы</a>
+                                                    </div>
+                                                </div>
+                                                <div class="contest_form-block maxW-50">
+                                                    <h3>Информация об авторах</h3>
+                                                    <div class="contest_form-b-inner">
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Фамилия<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Константиновский" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Имя<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Константин" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Отчество<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Константинович" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Год рождения<span>*</span></label>
+                                                            <div class="custom_select">
+                                                                <select class="form-select" aria-label="Выберите год">
+                                                                    <option selected>1990</option>
+                                                                    <option value="1">1991</option>
+                                                                    <option value="2">1992</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Полное наименование места работы<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="ООО «МЕДИ-ЛИНК»" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Адрес места работы<span>*</span></label>
+                                                            <textarea class="form-control" id="" placeholder="г. Москва, ул. Новочеремушкинская, д. 61 офис 306" aria-describedby=""></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Занимаемая должность<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Младший научный сотрудник" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Ученая степень<small>(при наличии)</small></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Введите" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Контактный телефон 1<small>(мобильный)</small><span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="8 (999) 999-99-99" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Контактный телефон 2<small>(домашний/рабочий)</small><span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="8 (999) 999-99-99" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Адрес электронной почты<span>*</span></label>
+                                                            <input type="text" class="form-control" id="" placeholder="email@mail.com" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Адрес персональной страницы в сети Интернет<small>(при наличии)</small></label>
+                                                            <input type="text" class="form-control" id="" placeholder="www.konstantinipolsky.com" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Персональные идентификаторы в системах учета научной и библиографической информации<small>(при наличии) Web of Science ResearcherID, Scopus Author ID, РИНЦ Author ID, ORCID ID, Istina Researcher ID</small></label>
+                                                            <input type="text" class="form-control" id="" placeholder="Введите" aria-describedby="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Список опубликованных с участием автора научных работ, монографий, выступлений на крупных научных конференциях<small>(допустимые расширения doc, docx, pdf, rtf)</small></label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-3" class="input input__file">
+                                                                <label for="input__file-3" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Список полученных с участием автора грантов, премий, научных стажировок и т.п.<small>(допустимые расширения doc, docx, pdf, rtf)</small></label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-4" class="input input__file">
+                                                                <label for="input__file-4" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="" class="form-label">Электронная копия подписанного согласия на сбор, хранение и обработку их персональных данных<small>(допустимые расширения pdf, jpg, jpeg, png)</small><span>*</span></label>
+                                                            <div class="custom_file">
+                                                                <input type="file" name="file" id="input__file-5" class="input input__file">
+                                                                <label for="input__file-5" class="input__file-button">Прикрепить файл</label>
+                                                                <div class="input__file-name"></div>
+                                                            </div>
+                                                        </div>
+                                                        <a class="dop_info dop_author dop_btn" href="/">Добавить автора</a>
+                                                    </div>
+                                                </div>
+                                                <div class="contest_form-block form-footer mb-0">
+                                                    <div class="contest_form-b-inner text-left text-md-center without_b d-flex flex-column flex-md-row flex-wrap justify-content-md-center align-items-md-center pb-0">
+                                                        <a class="save_info dop_btn" href="/">Сохранить черновик</a>
+                                                        <button class="btn btn-dark">Отправить заявку</button>
+                                                        <div class="contest_form-info">
+                                                            Нажимая кнопки, вы выражаете согласие <br class="d-none d-lg-block">с <a href="/">политикой обработки персональных данных</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="question_form">
+                                <h2>Остались вопросы?</h2>
+                                <a class="btn btn-dark" href="/">Напишите нам</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="question_call">
+                                <div class="d-xl-flex flex-row flex-nowrap">
+                                    <div class="question_call-head">
+                                        <h3><span>Или позвоните<br>по телефонам</span></h3>
+                                    </div>
+                                    <div class="question_call-nums">
+                                        <p><strong>8 (916) 795-07-32</strong></p>
+                                        <p><strong>8 (916) 795-07-32</strong></p>
+                                        <p><strong>8 (916) 795-07-32</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_bot">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-md-flex flex-row flex-nowrap align-items-center justify-content-between">
+                            <span>©РАН 2021</span>
+                            <span>Москва, Ленинский проспект, 14</span>
+                            <span class="grey_link"><a href="mailto:obogomol@gmail.com">obogomol@gmail.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="auth_form ml-auto mr-auto">
+                            <h3 class="modal-title" id="exampleModalLabel">Авторизация</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Логин</label>
+                                    <input type="text" class="form-control" id="" placeholder="Username" aria-describedby="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="form-label">Пароль</label>
+                                    <input type="password" class="form-control" id="" placeholder="Password" aria-describedby="">
+                                </div>
+                                <button class="btn btn-dark">Войти</button>
+                                <div class="auth_form-info d-flex flex-row flex-nowrap justify-content-between">
+                                    <div class="custom_checkbox">
+                                        <div class="form_check">
+                                            <input type="checkbox" name="flexCheckDefault" id="flexCheckDefault">
+                                            <label for="flexCheckDefault">
+                                                Запомнить меня
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <a href="">Забыли пароль?</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery and Bootstrap Bundle -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
